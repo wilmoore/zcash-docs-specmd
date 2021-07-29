@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "watch -n 3 'spec-md doc/readme.md > web/index.html'"
   },
   "keywords": [],
   "author": "Wil Moore III <wil@z.cash>",
